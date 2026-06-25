@@ -1,0 +1,8 @@
+FROM ghcr.io/browserless/chromium:latest
+
+ENV PORT=7860
+ENV HOST=0.0.0.0
+ENV CONCURRENT=10
+ENV TOKEN=6R0W53R135510
+
+EXPOSE 7860
